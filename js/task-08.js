@@ -11,5 +11,5 @@ function manualSubmit(event) {
   }
   const resetData = { email: email.value, password: password.value };
   console.log(resetData);
-  Event.currentTarget.reset();
+  event.currentTarget.reset();
 }
